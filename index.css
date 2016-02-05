@@ -1,0 +1,121 @@
+body{
+  background-color: #4554A5;
+  width:80%;
+  margin:0 auto;
+  font-family:Verdana, sans-serif;
+  color:white;
+}
+
+h1{
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  font-size:6em;
+  border-style: none;
+  border-color:white;
+  border-width: medium;
+}
+
+/*----------MEMORY---------*/
+
+.title{
+  border-style: none;
+  border-color:white;
+  border-width: medium;
+  margin:0 auto;
+  padding-top:20px;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+}
+
+h1 i {
+  border-style: none;
+  border-color:white;
+  border-width: medium;
+  display:inline-block;
+}
+
+.mem {
+  border-style: none;
+  border-color:white;
+  border-width: medium;
+  margin:0;
+  margin-right:-.2em;
+  display:inline-block;
+}
+
+.memoRY {
+  border-style: none;
+  border-color:white;
+  border-width: medium;
+  margin:0;
+  margin-left:-.2em;
+  display:inline-block;
+}
+
+/*------------GAME-INFO------------*/
+
+i:first-of-type{
+  margin-left:3px;
+}
+
+.game-info{
+  border-style: none;
+  border-color:white;
+  border-width: medium;
+  padding-top:40px;
+}
+
+.game-info i {
+  color:white;
+}
+
+.game-info span{
+  float:right;
+  font-size: 1.2em;
+}
+
+/*-------------GAME------------*/
+
+.game-container{
+  border-style: none;
+  border-color:white;
+  border-width: medium;
+  padding-top:60px;
+}
+
+.row-one {
+  border-style: none;
+  border-color:red;
+  border-width: medium;
+  text-align: center;
+}
+
+.row-two {
+  border-style: none;
+  border-color:red;
+  border-width: medium;
+  text-align: center;
+}
+
+.row-three {
+  border-style: none;
+  border-color:red;
+  border-width: medium;
+  text-align: center;
+}
+
+
+.box{
+  width:14%;
+  height: 0;
+  padding-bottom: 13.5%;
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+  margin:0;
+  margin-right:-5px;
+  background-color: #7A83C0;
+}
