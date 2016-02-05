@@ -23,6 +23,7 @@ h1{
   border-width: medium;
   margin:0 auto;
   padding-top:20px;
+  width:500px;
 }
 
 h1 {
@@ -42,7 +43,7 @@ h1 i {
   border-color:white;
   border-width: medium;
   margin:0;
-  margin-right:-.2em;
+  margin-right:-30px;
   display:inline-block;
 }
 
@@ -51,7 +52,7 @@ h1 i {
   border-color:white;
   border-width: medium;
   margin:0;
-  margin-left:-.2em;
+  margin-left:-20px;
   display:inline-block;
 }
 
@@ -88,7 +89,7 @@ i:first-of-type{
 }
 
 .row-one {
-  border-style: none;
+  border-style: solid;
   border-color:red;
   border-width: medium;
   text-align: center;
@@ -120,4 +121,21 @@ i:first-of-type{
   margin-right:-2px;
   margin-bottom:3px;
   background-color: #7A83C0;
+}
+
+label{
+  width:13.5%;
+  height: 0;
+  padding-bottom: 13.5%;
+  background-color: white;
+  display: inline-block;
+  margin:0;
+  margin-right:-2px;
+  margin-bottom:3px;
+  background-color: #7A83C0;
+
+  border-style: none;
+  border-color:white;
+  border-width: medium;
+  border-radius: 10px;
 }
