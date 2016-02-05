@@ -43,7 +43,7 @@ h1 i {
   border-color:white;
   border-width: medium;
   margin:0;
-  margin-right:-30px;
+  margin-right:-20px;
   display:inline-block;
 }
 
@@ -59,7 +59,7 @@ h1 i {
 /*------------GAME-INFO------------*/
 
 i:first-of-type{
-  margin-left:2%;
+  /*margin-left:2%;*/
 }
 
 .game-info{
@@ -76,20 +76,131 @@ i:first-of-type{
 .game-info span{
   float:right;
   font-size: 1.2em;
-  padding-right:1%;
+  /*padding-right:2%;*/
 }
 
 /*-------------GAME------------*/
 
 .game-container{
-  border-style: none;
+  border-style: solid;
   border-color:white;
   border-width: medium;
   padding-top:60px;
+  text-align: center;
 }
 
-.row-one {
+.box{
   border-style: solid;
+  border-color:red;
+  border-width: medium;
+  width:13.5;
+  padding-bottom:7.25%;
+  padding-bottom:7.25%;
+
+}
+
+input{
+  display: none;
+}
+
+label{
+  border-style: none;
+  border-color:white;
+  border-width: medium;
+  font-size: 3em;
+  width:100%;
+  height:0%;
+  padding-bottom:50%;
+  padding-top:50%;
+  background: steelblue;
+  display: block;
+  transition: background 1s, -webkit-transform 1s;
+}
+
+.label-sub{
+  display: inline-block;
+  border-style: none;
+  border-color:red;
+  border-width: medium;
+}
+
+.icon-container{
+  border-style: none;
+  border-color:white;
+  border-width: medium;
+  margin-top:-40%;
+}
+
+input:checked +label {
+  background: lightcoral;
+  -webkit-transform: rotateY(180deg);
+
+
+
+
+/*
+li{
+  display: inline-block;
+  width:13.5%;
+  text-align: center;
+  border-style: none;
+  border-color:red;
+  border-width: medium;
+}
+
+li label{
+  width:100%;
+  height: 0;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+  margin:0;
+  background-color: #7A83C0;
+}
+
+.label-sub{
+  display: inline-block;
+  font-size: 3em;
+  border-style: none;
+  border-color:red;
+  border-width: medium;
+  margin-top:-70px;
+
+}
+
+.icon-container{
+  display:inline-block;
+  border-style: none;
+  border-color:white;
+  border-width: medium;
+  margin:auto 0;
+  line-height: 200px;
+}
+
+
+label{
+  background: steelblue;
+  display: block;
+  transition: background 1s, -webkit-transform 1s;
+
+
+
+}
+
+input{
+  display:none;
+}
+
+input:checked +label {
+  background: lightcoral;
+  -webkit-transform: rotateY(180deg);
+}*/
+
+
+/*.row-one {
+  border-style: none;
   border-color:red;
   border-width: medium;
   text-align: center;
@@ -138,4 +249,15 @@ label{
   border-color:white;
   border-width: medium;
   border-radius: 10px;
-}
+
+  .icon {
+    display: inline-block;
+  }
+}*/
+
+
+
+
+/*input {
+  display: none;
+}*/
