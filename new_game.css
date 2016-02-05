@@ -1,0 +1,51 @@
+body{
+  background-color: #3F9BB3;
+  font-family:Verdana, sans-serif;
+  color:white;
+}
+
+.title{
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  font-size:4em;
+  border-style: none;
+  border-color:white;
+  border-width: medium;
+  margin:0 auto;
+  padding-top:50%vh;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+}
+
+h1 i {
+  border-style: none;
+  border-color:white;
+  border-width: medium;
+  display:inline-block;
+}
+
+.newgame {
+  padding-top:20px;
+  font-size:1.5em;
+}
+
+.mem {
+  border-style: none;
+  border-color:white;
+  border-width: medium;
+  margin:0;
+  margin-right:-.2em;
+  display:inline-block;
+}
+
+.memoRY {
+  border-style: none;
+  border-color:white;
+  border-width: medium;
+  margin:0;
+  margin-left:-.2em;
+  display:inline-block;
+}
