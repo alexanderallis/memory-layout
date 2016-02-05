@@ -2,6 +2,11 @@ body{
   background-color: #3F9BB3;
   font-family:Verdana, sans-serif;
   color:white;
+  -webkit-animation-name: shake;
+  -webkit-animation-duration:     0.8s;
+  -webkit-animation-iteration-    count: infinite;
+  -webkit-animation-timing-    function: linear;
+  -webkit-transform-origin:    50% 100%;
 }
 
 /*--------HEADER--------*/
@@ -96,6 +101,20 @@ section{
   border-right: 285px solid #3F9BB3;
 }
 
+.easy-in h2 {
+  position: relative;
+  left:102px;
+  top:5px;
+}
+
+.easy-in:hover{
+  border-right: 285px solid;
+}
+
+.easy-in:hover h2 {
+  color:#3F9BB3;
+}
+
 /*----------HARD-CONTAINER---------*/
 
 .hard-container{
@@ -132,4 +151,18 @@ section{
   border-top:15px solid transparent;
   border-left: 285px solid  #3F9BB3;
   border-right: 0px solid transparent;
+}
+
+.hard-in:hover{
+  border-left: 285px solid;
+}
+
+.hard-in:hover h2 {
+  color:#3F9BB3;
+}
+
+.hard-in h2{
+  position: relative;
+  left:-125px;
+  top:6px;
 }
